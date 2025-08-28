@@ -1,0 +1,79 @@
+@font-face{
+    font-family: 'Me';
+    src: url(../midia/Playwrite_IT_Moderna/static/PlaywriteITModerna-Light.ttf) format('truetype');
+    font-family: 'Ligther';
+    src: url(../midia/Ubuntu/Ubuntu-Light.ttf) format('truetype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+        height: 100vh;
+        width:100%;
+        
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .blue-1{
+        height: 600px;
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border:none;
+        background-color:#DCE6F0;
+        border-radius: 2px;
+    	min-width:320px;
+    }
+    .qrcode{
+        height:350px;
+        width:220px ;
+        border:none;
+        border-radius: 0.5rem;
+        background-color: white;
+	box-shadow:1px 1px 8px 1px #deddda;
+    }
+    .image{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin:8px;
+    }
+    .image > img{
+        height: 100%;
+        width: 100%;
+        border-radius: 0.5rem;
+        background-size: cover;
+    }
+    
+    .qrcode > span{
+        color:black;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bolder;
+	display:flex;
+        text-align: center;
+        font-size: 1rem;
+	margin:20px 10px 10px 10px;
+
+    
+    }
+    
+    .qrcode > p {
+        font-size: 0.7rem;
+        margin-top: 5px;
+        text-align: center;
+        font-weight: lighter;
+        font-family: 'Ligther';
+	color:black;
+	margin:5px 10px 5px 10px;
+    }
+    
+
+}
